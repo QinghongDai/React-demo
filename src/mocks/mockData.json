@@ -1,0 +1,838 @@
+{
+  "_key": "287ae74de10814572a662497aa800740",
+  "_id": "solutions/287ae74de10814572a662497aa800740",
+  "_rev": "_acJUMI2--_",
+  "nodes": [
+    "75X2-ARE-G002-F03-03",
+    "O5RX-ARE-G089-F22-03",
+    "O5RXJ32AC11",
+    "O5RXJ32AC12",
+    "75X2-ARE-G002-F02-03",
+    "O5RX-ARE-G089-F21-03"
+  ],
+  "links": [
+    {
+      "from": "75X2-ARE-G002-F03-03",
+      "from_interface": ["1/1/1", "1/1/3", "1/1/2"],
+      "from_interface_details": [
+        {
+          "name": "Port 1/1/1",
+          "object_id": "9144834344813062945",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 1,
+          "sfp_name": "SFP+ 1",
+          "status": "Assigned",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9148972696713119263",
+          "circuit_name": "75X2 O5RX EBDS001",
+          "odus": [
+            {
+              "CE Port ID": "9144834344813062945",
+              "CE Port Name": "Port 1/1/1",
+              "Line Ports": "9148973131613446485 (node: 9148972692813077004) , 9148973128013295420 (node: 9148972692913085584) ",
+              "NEXT_ODU": "9150413248613294660",
+              "ODU ID": "9148972713013764530",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0011",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741113923602",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977842113394476",
+                "C-Port Name": "1-16-1-2",
+                "Card ID": "9148972716413780566",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554242",
+                "DWDM Name": "ALU PSS-32 COM (M)@75X2.G003.R02.002-1",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113141276), Slot 35(9148972761113144220), Slot 34(9148972761113144214), Slot 17(9148972761113141284)",
+                "Slot ID": "9148972763913112907",
+                "Slot Name": "XFP [C1]"
+              },
+              "z": {
+                "C-Port ID": "9148977844413531025",
+                "C-Port Name": "3-14-1-2",
+                "Card ID": "9148972721913495534",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693613250147",
+                "DWDM Name": "ALU PSS-32 COM (S)@O5RX.G091.R11.002-3",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972761013132259), Slot 33(9148972761013136010), Slot 32(9148972761013136005), Slot 15(9148972761013132266)",
+                "Slot ID": "9148972763913100010",
+                "Slot Name": "XFP [C1]"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Port 1/1/3",
+          "object_id": "9144834344913065997",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 3,
+          "sfp_name": "SFP+ 3",
+          "status": "Allocated",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9156926183313945135",
+          "circuit_name": "75X2 O5RX EBDS003",
+          "odus": [
+            {
+              "CE Port ID": "9144834344913065997",
+              "CE Port Name": "Port 1/1/3",
+              "Line Ports": "9148973073713880586 (node: 9148972692813077004) , 9148973073713881717 (node: 9148972692913085584) ",
+              "NEXT_ODU": null,
+              "ODU ID": "9148972712913733390",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0007",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741013902891",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977840513294439",
+                "C-Port Name": "2-S16-C7:ODU2",
+                "Card ID": "9148972716413782002",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554297",
+                "DWDM Name": "ALU PSS-32 COM (S)@75X2.G003.R03.002 (Shelf-2)-3",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113147297), Slot 35(9148972761113147510), Slot 34(9148972761113147502), Slot 17(9148972761113147303)",
+                "Slot ID": "9148972763913113029",
+                "Slot Name": "XFP [C7]"
+              },
+              "z": {
+                "C-Port ID": "9148977843113455604",
+                "C-Port Name": "1-S14-C7:ODU2",
+                "Card ID": "9148972721913492017",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693513243106",
+                "DWDM Name": "ALU PSS-32 COM (M)@O5RX.G091.F11.002-1 (Shelf-1)",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972760913104349), Slot 33(9148972760913107958), Slot 32(9148972760913107956), Slot 15(9148972760913104353)",
+                "Slot ID": "9148972763813092277",
+                "Slot Name": "XFP [C7]"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Port 1/1/2",
+          "object_id": "9148994077113219826",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 2,
+          "sfp_name": "SFP+ 2",
+          "status": "Allocated",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9156926182613944333",
+          "circuit_name": "75X2 O5RX EBDS002",
+          "odus": [
+            {
+              "CE Port ID": "9148994077113219826",
+              "CE Port Name": "Port 1/1/2",
+              "Line Ports": "9148973073713880586 (node: 9148972692813077004) , 9148973073713881717 (node: 9148972692913085584) ",
+              "NEXT_ODU": null,
+              "ODU ID": "9148972713013735750",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0006",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741013902891",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977840513294434",
+                "C-Port Name": "2-S16-C6:ODU2",
+                "Card ID": "9148972716413782002",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554297",
+                "DWDM Name": "ALU PSS-32 COM (S)@75X2.G003.R03.002 (Shelf-2)-3",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113147297), Slot 35(9148972761113147510), Slot 34(9148972761113147502), Slot 17(9148972761113147303)",
+                "Slot ID": "9148972763913113022",
+                "Slot Name": "XFP [C6]"
+              },
+              "z": {
+                "C-Port ID": "9148977843113455598",
+                "C-Port Name": "1-S14-C6:ODU2",
+                "Card ID": "9148972721913492017",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693513243106",
+                "DWDM Name": "ALU PSS-32 COM (M)@O5RX.G091.F11.002-1 (Shelf-1)",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972760913104349), Slot 33(9148972760913107958), Slot 32(9148972760913107956), Slot 15(9148972760913104353)",
+                "Slot ID": "9148972763813092272",
+                "Slot Name": "XFP [C6]"
+              }
+            }
+          ]
+        }
+      ],
+      "from_interface_load": {
+        "1/1/1": 0.0215127079,
+        "1/1/3": 0.8001631153,
+        "1/1/2": 0.7971090453
+      },
+      "to": "O5RX-ARE-G089-F22-03",
+      "to_interface": ["7/1/11", "7/1/23", "7/1/22"],
+      "issues": [],
+      "spread": 0.7786504073999999,
+      "stdev": 0.44867498683643403,
+      "factors": [],
+      "forecast": {},
+      "link_type": "da_ca"
+    },
+    {
+      "from": "75X2-ARE-G002-F03-03",
+      "from_interface": ["1/1/1", "1/1/3", "1/1/2"],
+      "from_interface_details": [
+        {
+          "name": "Port 1/1/1",
+          "object_id": "9144834344813062945",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 1,
+          "sfp_name": "SFP+ 1",
+          "status": "Assigned",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9148972696713119263",
+          "circuit_name": "75X2 O5RX EBDS001",
+          "odus": [
+            {
+              "CE Port ID": "9144834344813062945",
+              "CE Port Name": "Port 1/1/1",
+              "Line Ports": "9148973131613446485 (node: 9148972692813077004) , 9148973128013295420 (node: 9148972692913085584) ",
+              "NEXT_ODU": "9150413248613294660",
+              "ODU ID": "9148972713013764530",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0011",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741113923602",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977842113394476",
+                "C-Port Name": "1-16-1-2",
+                "Card ID": "9148972716413780566",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554242",
+                "DWDM Name": "ALU PSS-32 COM (M)@75X2.G003.R02.002-1",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113141276), Slot 35(9148972761113144220), Slot 34(9148972761113144214), Slot 17(9148972761113141284)",
+                "Slot ID": "9148972763913112907",
+                "Slot Name": "XFP [C1]"
+              },
+              "z": {
+                "C-Port ID": "9148977844413531025",
+                "C-Port Name": "3-14-1-2",
+                "Card ID": "9148972721913495534",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693613250147",
+                "DWDM Name": "ALU PSS-32 COM (S)@O5RX.G091.R11.002-3",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972761013132259), Slot 33(9148972761013136010), Slot 32(9148972761013136005), Slot 15(9148972761013132266)",
+                "Slot ID": "9148972763913100010",
+                "Slot Name": "XFP [C1]"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Port 1/1/3",
+          "object_id": "9144834344913065997",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 3,
+          "sfp_name": "SFP+ 3",
+          "status": "Allocated",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9156926183313945135",
+          "circuit_name": "75X2 O5RX EBDS003",
+          "odus": [
+            {
+              "CE Port ID": "9144834344913065997",
+              "CE Port Name": "Port 1/1/3",
+              "Line Ports": "9148973073713880586 (node: 9148972692813077004) , 9148973073713881717 (node: 9148972692913085584) ",
+              "NEXT_ODU": null,
+              "ODU ID": "9148972712913733390",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0007",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741013902891",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977840513294439",
+                "C-Port Name": "2-S16-C7:ODU2",
+                "Card ID": "9148972716413782002",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554297",
+                "DWDM Name": "ALU PSS-32 COM (S)@75X2.G003.R03.002 (Shelf-2)-3",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113147297), Slot 35(9148972761113147510), Slot 34(9148972761113147502), Slot 17(9148972761113147303)",
+                "Slot ID": "9148972763913113029",
+                "Slot Name": "XFP [C7]"
+              },
+              "z": {
+                "C-Port ID": "9148977843113455604",
+                "C-Port Name": "1-S14-C7:ODU2",
+                "Card ID": "9148972721913492017",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693513243106",
+                "DWDM Name": "ALU PSS-32 COM (M)@O5RX.G091.F11.002-1 (Shelf-1)",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972760913104349), Slot 33(9148972760913107958), Slot 32(9148972760913107956), Slot 15(9148972760913104353)",
+                "Slot ID": "9148972763813092277",
+                "Slot Name": "XFP [C7]"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Port 1/1/2",
+          "object_id": "9148994077113219826",
+          "slot_number": 1,
+          "subslot_number": 1,
+          "port_number": 2,
+          "sfp_name": "SFP+ 2",
+          "status": "Allocated",
+          "status_details": {
+            "OperUp": true,
+            "AdminUp": true,
+            "FullDuplex": true,
+            "Speed": 10
+          },
+          "lag": "lag-1",
+          "circuit_id": "9156926182613944333",
+          "circuit_name": "75X2 O5RX EBDS002",
+          "odus": [
+            {
+              "CE Port ID": "9148994077113219826",
+              "CE Port Name": "Port 1/1/2",
+              "Line Ports": "9148973073713880586 (node: 9148972692813077004) , 9148973073713881717 (node: 9148972692913085584) ",
+              "NEXT_ODU": null,
+              "ODU ID": "9148972713013735750",
+              "ODU Name": "75X2 ADWDM01 O5RX ADWDM08 08Unit0006",
+              "ORDER_NUMBER": 2,
+              "_och": [
+                {
+                  "id": "9148972741013902891",
+                  "lambda": 194.1
+                }
+              ],
+              "a": {
+                "C-Port ID": "9148977840513294434",
+                "C-Port Name": "2-S16-C6:ODU2",
+                "Card ID": "9148972716413782002",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972703113554297",
+                "DWDM Name": "ALU PSS-32 COM (S)@75X2.G003.R03.002 (Shelf-2)-3",
+                "Optical Node ID": "9148972692813077004",
+                "Optical Node Name": "75X2-1830 PSS-32-1",
+                "Optical Node TID": "TID:75X2-AP3-G003-R02-02",
+                "Parent Slots 2": "Slot 16(9148972761113147297), Slot 35(9148972761113147510), Slot 34(9148972761113147502), Slot 17(9148972761113147303)",
+                "Slot ID": "9148972763913113022",
+                "Slot Name": "XFP [C6]"
+              },
+              "z": {
+                "C-Port ID": "9148977843113455598",
+                "C-Port Name": "1-S14-C6:ODU2",
+                "Card ID": "9148972721913492017",
+                "Card Name": "130SCX10",
+                "DWDM ID": "9148972693513243106",
+                "DWDM Name": "ALU PSS-32 COM (M)@O5RX.G091.F11.002-1 (Shelf-1)",
+                "Optical Node ID": "9148972692913085584",
+                "Optical Node Name": "O5RX-1830 PSS-32-2",
+                "Optical Node TID": "TID:O5RX-AP3-G091-F11-02",
+                "Parent Slots 1": "Slot 14(9148972760913104349), Slot 33(9148972760913107958), Slot 32(9148972760913107956), Slot 15(9148972760913104353)",
+                "Slot ID": "9148972763813092272",
+                "Slot Name": "XFP [C6]"
+              }
+            }
+          ]
+        }
+      ],
+      "from_interface_load": {
+        "1/1/1": 0.0215127079,
+        "1/1/3": 0.8001631153,
+        "1/1/2": 0.7971090453
+      },
+      "to": "O5RX-ARE-G089-F22-03",
+      "to_interface": ["7/1/11", "7/1/23", "7/1/22"],
+      "issues": [
+        {
+          "time_period": "forecast_90",
+          "value": 0.9823454026666667,
+          "issue_type": "simulated",
+          "proposed_solution": {
+            "bw_required": 100,
+            "current_interfaces": 3,
+            "current_load": 0.9823454026666667,
+            "current_speed": 30,
+            "free_a_slots": [
+              {
+                "slot_name": "Slot 2",
+                "slot_number": 2
+              },
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              },
+              {
+                "slot_name": "Slot 6",
+                "slot_number": 6
+              },
+              {
+                "slot_name": "Slot 7",
+                "slot_number": 7
+              },
+              {
+                "slot_name": "Slot 8",
+                "slot_number": 8
+              }
+            ],
+            "free_z_slots": [
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              }
+            ],
+            "free_a_subslots": [],
+            "free_z_subslots": [],
+            "interface_size": 10,
+            "interfaces_required": 7,
+            "proposed_z_ports": [
+              "7/1/19",
+              "7/1/20",
+              "7/1/21",
+              "7/1/24",
+              "7/1/25",
+              "7/1/26",
+              "7/1/27"
+            ],
+            "proposed_a_ports": [
+              "10GBASE-LR 1/9",
+              "Port 1/2/6",
+              "Port 1/2/8",
+              "Port 1/2/7",
+              "Port 1/2/9",
+              "Port 1/2/5",
+              "Port 1/2/10"
+            ],
+            "dwdm": [
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413782002",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913492017",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ],
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413780566",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913495534",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "time_period": "spread",
+          "value": 0.7786504073999999,
+          "issue_type": "Spread: is greater than allowed.",
+          "proposed_solution": null
+        },
+        {
+          "time_period": "forecast_90",
+          "value": 0.4776545602,
+          "issue_type": "actual",
+          "proposed_solution": {
+            "bw_required": 50,
+            "current_interfaces": 3,
+            "current_load": 0.4776545602,
+            "current_speed": 30,
+            "free_a_slots": [
+              {
+                "slot_name": "Slot 2",
+                "slot_number": 2
+              },
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              },
+              {
+                "slot_name": "Slot 6",
+                "slot_number": 6
+              },
+              {
+                "slot_name": "Slot 7",
+                "slot_number": 7
+              },
+              {
+                "slot_name": "Slot 8",
+                "slot_number": 8
+              }
+            ],
+            "free_z_slots": [
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              }
+            ],
+            "free_a_subslots": [],
+            "free_z_subslots": [],
+            "interface_size": 10,
+            "interfaces_required": 2,
+            "proposed_z_ports": ["7/1/19", "7/1/20"],
+            "proposed_a_ports": ["10GBASE-LR 1/9", "Port 1/2/6"],
+            "dwdm": [
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413782002",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913492017",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ],
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413780566",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913495534",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "time_period": "stdev",
+          "value": 0.44867498683643403,
+          "issue_type": "Spread: Standard deviation is greater than allowed.",
+          "proposed_solution": null
+        },
+        {
+          "time_period": "forecast_180",
+          "value": 0.8215956496000001,
+          "issue_type": "actual",
+          "proposed_solution": {
+            "bw_required": 90,
+            "current_interfaces": 3,
+            "current_load": 0.8215956496000001,
+            "current_speed": 30,
+            "free_a_slots": [
+              {
+                "slot_name": "Slot 2",
+                "slot_number": 2
+              },
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              },
+              {
+                "slot_name": "Slot 6",
+                "slot_number": 6
+              },
+              {
+                "slot_name": "Slot 7",
+                "slot_number": 7
+              },
+              {
+                "slot_name": "Slot 8",
+                "slot_number": 8
+              }
+            ],
+            "free_z_slots": [
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              }
+            ],
+            "free_a_subslots": [],
+            "free_z_subslots": [],
+            "interface_size": 10,
+            "interfaces_required": 6,
+            "proposed_z_ports": [
+              "7/1/19",
+              "7/1/20",
+              "7/1/21",
+              "7/1/24",
+              "7/1/25",
+              "7/1/26"
+            ],
+            "proposed_a_ports": [
+              "10GBASE-LR 1/9",
+              "Port 1/2/6",
+              "Port 1/2/8",
+              "Port 1/2/7",
+              "Port 1/2/9",
+              "Port 1/2/5"
+            ],
+            "dwdm": [
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413782002",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913492017",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ],
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413780566",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913495534",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "time_period": "forecast_180",
+          "value": 1.6777107524000001,
+          "issue_type": "simulated",
+          "proposed_solution": {
+            "bw_required": 170,
+            "current_interfaces": 3,
+            "current_load": 1.6777107524000001,
+            "current_speed": 30,
+            "free_a_slots": [
+              {
+                "slot_name": "Slot 2",
+                "slot_number": 2
+              },
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              },
+              {
+                "slot_name": "Slot 6",
+                "slot_number": 6
+              },
+              {
+                "slot_name": "Slot 7",
+                "slot_number": 7
+              },
+              {
+                "slot_name": "Slot 8",
+                "slot_number": 8
+              }
+            ],
+            "free_z_slots": [
+              {
+                "slot_name": "Slot 3",
+                "slot_number": 3
+              },
+              {
+                "slot_name": "Slot 5",
+                "slot_number": 5
+              }
+            ],
+            "free_a_subslots": [],
+            "free_z_subslots": [],
+            "interface_size": 10,
+            "interfaces_required": 14,
+            "proposed_z_ports": [
+              "7/1/19",
+              "7/1/20",
+              "7/1/21",
+              "7/1/24",
+              "7/1/25",
+              "7/1/26",
+              "7/1/27",
+              "7/1/28",
+              "7/1/29",
+              "7/1/30",
+              "7/1/31",
+              "7/1/32",
+              "7/1/33",
+              "7/1/34"
+            ],
+            "proposed_a_ports": [
+              "10GBASE-LR 1/9",
+              "Port 1/2/6",
+              "Port 1/2/8",
+              "Port 1/2/7",
+              "Port 1/2/9",
+              "Port 1/2/5",
+              "Port 1/2/10",
+              "4/1/6",
+              "4/1/7",
+              "4/1/8",
+              "4/1/9",
+              "4/1/10",
+              "4/2/1",
+              "4/2/2"
+            ],
+            "dwdm": [
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413782002",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913492017",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ],
+              [
+                {
+                  "a": "TID:75X2-AP3-G003-R02-02",
+                  "a_card": "9148972716413780566",
+                  "a_card_name": "130SCX10",
+                  "z": "TID:O5RX-AP3-G091-F11-02",
+                  "z_card": "9148972721913495534",
+                  "z_card_name": "130SCX10",
+                  "a_free_cp": "XFP [C10]",
+                  "z_free_cp": "XFP [C10]"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "spread": 0.7786504073999999,
+      "stdev": 0.44867498683643403,
+      "factors": [],
+      "forecast": {
+        "poi": null,
+        "poi_info": null,
+        "devices": null,
+        "installed": null,
+        "avg": 0.237444608,
+        "forecast_arima": null,
+        "change_arima": null,
+        "comment": null,
+        "due_date": "2020-05-06 00:00:00",
+        "forecast_90": 14.329636806,
+        "change_90": 98,
+        "forecast_180": 24.647869488,
+        "change_180": 99,
+        "nni": "6bba255c-f447-4fe7-9288-09578c612e17",
+        "id": "6bba255c-f447-4fe7-9288-09578c612e17"
+      },
+      "link_type": "da_ca"
+    }
+  ],
+  "updated": "2020-05-05 13:17:01.778501",
+  "site_code": "75X2-ARE"
+}
